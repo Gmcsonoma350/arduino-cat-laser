@@ -1,0 +1,48 @@
+:Author: Eddie Soller
+:Email: eddie.soller@gmail.com
+:Date: 19/01/2017
+:Revision: 1.0
+:License: Public Domain
+
+= Project: Automated Cat Laser Pointer
+
+Describe your project
+
+== Step 1: Installation
+
+1. Open this file
+2. Edit user customizable variables
+3. Upload to Arduino
+4. Turn on Arduino at desired start time
+
+== Step 2: Assemble the circuit
+
+Assemble the circuit following the diagram diagram.png attached to the sketch
+Taken from http://www.lafabriquediy.com/tutoriel/tour-laser-pour-chat-259/
+
+== Step 3: Load the code
+
+Upload the code contained in this sketch on to your board
+
+=== Folder structure
+
+....
+ cat_laser                => Arduino sketch folder
+  ├── cat_laser.ino       => main Arduino file
+  ├── diagram.png         => an image of the circuit diagram 
+  └── ReadMe.adoc         => this file
+....
+
+=== Contributing
+To contribute to this project please contact Eddie Soller <eddie.soller@gmail.com>
+
+=== BOM
+
+|===
+| Part name      | Quantity
+| Arduino Uno    | 1
+| Resistor       | 1      
+| 9g Servo Motor | 2        
+| Pan/Tilt Assm. | 1
+| Altoid Tin     | 1
+|===
